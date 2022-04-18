@@ -1,0 +1,26 @@
+.todo {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto, auto, auto;
+    grid-template-areas:
+        "afiliacion"
+        "sucursales"
+        "noticias";
+    row-gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+section#afiliacion {
+    grid-area: afiliacion;
+}
+
+section#sucursales {
+    grid-area: sucursales;
+}
+
+section#noticias {
+    grid-area: noticias;
+}

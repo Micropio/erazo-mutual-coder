@@ -1,0 +1,47 @@
+body {
+    font-family: $fuente-titulo;
+    font-family: $fuente-titulo;
+}
+
+h1 {
+    color: $color;
+    font-family: $fuente-titulo;
+    margin-bottom: 2rem;
+    font-size: 28px;
+}
+
+h2 {
+    color: $color;
+    font-family: $fuente-normal;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+h3 {
+    color: $blanco;
+    font-family: $fuente-titulo;
+    padding: 1rem;
+    font-size: 35px;
+    text-align: center;
+  }
+
+p {
+    color: $negro;
+    font-family: $fuente-normal;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.p2 {
+    display: flex;
+    font-family: $fuente-titulo;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    color: $blanco;
+    font-size: 15px;
+    margin: 15px;
+}
